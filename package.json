@@ -8,7 +8,7 @@
     "build": "vite build",
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "start": "npx serve -s dist -l ${PORT:-8080}"
   },
   "dependencies": {
     "@fontsource/plus-jakarta-sans": "^5.2.8",
