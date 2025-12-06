@@ -14,8 +14,8 @@ const features = [
   },
   {
     icon: HeartHandshake,
-    title: "Harga Bersahabat",
-    description: "Solusi premium dengan harga yang ramah untuk UMKM dan startup.",
+    title: "Harga Bersahabat dan Transparan",
+    description: "Tanpa biaya tersembunyi. Anda tahu berapa dari awal. Solusi premium dengan harga yang ramah untuk UMKM dan startup.",
   },
   {
     icon: Headphones,

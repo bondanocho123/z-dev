@@ -3,19 +3,19 @@ import { Code2, Layers, Zap } from "lucide-react";
 const About = () => {
   const features = [
     {
-      icon: Code2,
-      title: "Expert Development",
-      description: "Specialized in .NET and Rust development with years of production experience"
+      icon: Layers,
+      title: "Company Profile & Website",
+      description: "Website company profile modern, mobile-friendly, dan SEO-ready."
     },
     {
-      icon: Layers,
-      title: "Full-Stack Solutions",
-      description: "From frontend interfaces to backend systems and database optimization"
+      icon: Code2,
+      title: "Robust Custom Apps",
+      description: "Aplikasi web/mobile custom sesuai kebutuhan bisnis Anda — mulai dari dashboard internal, e-commerce, SaaS, hingga sistem ERP ringan. Full stack, aman, dan siap scale."
     },
     {
       icon: Zap,
-      title: "Performance Focused",
-      description: "Building fast, scalable, and reliable applications for enterprise needs"
+      title: "Deployment & Hosting",
+      description: "Deploy aplikasi Anda ke server terbaik (VPS, Cloudflare, Vercel, Railways, dll), SSL gratis, monitoring 24/7, dan auto-scaling. Anda tinggal terima link live."
     }
   ];
 
@@ -24,9 +24,9 @@ const About = () => {
       <div className="container px-4">
         <div className="max-w-6xl mx-auto">
           <div className="text-center space-y-4 mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold">What We Do</h2>
+            <h2 className="text-4xl md:text-5xl font-bold">Bangun Digital Presence Anda</h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              Delivering enterprise-grade software solutions with modern technologies
+              Kami membantu bisnis & startup mewujudkan ide menjadi website profesional dan aplikasi custom yang scalable.
             </p>
           </div>
 

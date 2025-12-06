@@ -14,20 +14,7 @@ const Footer = () => {
       { label: "Rekomendasi Laptop", href: "#" },
       { label: "Platform Affiliate", href: "#" },
     ],
-    perusahaan: [
-      { label: "Tentang Kami", href: "#" },
-      { label: "Portfolio", href: "#" },
-      { label: "Blog", href: "#" },
-      { label: "Karir", href: "#" },
-    ],
   };
-
-  const socialLinks = [
-    { icon: Instagram, href: "#", label: "Instagram" },
-    { icon: Twitter, href: "#", label: "Twitter" },
-    { icon: Linkedin, href: "#", label: "LinkedIn" },
-    { icon: Github, href: "#", label: "GitHub" },
-  ];
 
   return (
     <footer className="border-t border-border">
@@ -46,18 +33,6 @@ const Footer = () => {
               Partner digital terpercaya untuk UMKM dan startup Indonesia. Wujudkan kehadiran online yang profesional dan impactful.
             </p>
             {/* Social Links */}
-            <div className="flex gap-3">
-              {socialLinks.map((social) => (
-                <a
-                  key={social.label}
-                  href={social.href}
-                  aria-label={social.label}
-                  className="w-10 h-10 rounded-lg bg-background flex items-center justify-center text-muted-foreground hover:text-primary hover:shadow-soft transition-all"
-                >
-                  <social.icon size={18} />
-                </a>
-              ))}
-            </div>
           </div>
 
           {/* Links */}
@@ -87,18 +62,6 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div>
-            <h4 className="font-semibold text-foreground mb-4">Perusahaan</h4>
-            <ul className="space-y-3">
-              {footerLinks.perusahaan.map((link) => (
-                <li key={link.label}>
-                  <a href={link.href} className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-                    {link.label}
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </div>
         </div>
 
         {/* Bottom Bar */}
